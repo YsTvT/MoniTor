@@ -34,11 +34,11 @@ pip install -r requirements.txt
 Please download the data, including captions, temporal summaries, indexes with their textual embeddings, and scores for the UCF-Crime and XD-Violence datasets, from the links below:
 
 - 📦 **UCF-Crime Dataset (processed)**  
-  [Download UCF-Crime features](https://zenodo.org/record/10407036/files/ucf-crime.zip)  
+  [Download UCF-Crime features](https://drive.google.com/file/d/1_7juCgOoWjQruyH3S8_FBqajuRaORmnV/view)  
   Includes: pre-extracted I3D features, timestamps, textual descriptions, and anomaly labels.
 
 - 📦 **XD-Violence Dataset (processed)**  
-  [Download XD-Violence features](https://zenodo.org/record/10407036/files/xd-violence.zip)  
+  [Download XD-Violence features](https://drive.google.com/file/d/1yzDP1lVwPlA_BS2N5Byr1PcaazBklfkI/view)  
   Includes: temporal annotations, video embeddings, and textual captions.
 
 After downloading, extract the contents into the following directory structure:
