@@ -1,12 +1,7 @@
-<div align="center">
-
-<img src="assets/fig0.png" width="40"/>
-
-<br>
-
-<b><font size="5">MoniTor: Exploiting Large Language Models with Instruction for Online Video Anomaly Detection</font></b>
-
-</div>
+<h1 align="center">
+  <img src="assets/fig0.png" width="40" style="vertical-align: middle; margin-right: 10px;" />
+  MoniTor: Exploiting Large Language Models with Instruction for Online Video Anomaly Detection
+</h1>
 
 
 <div align="center">
