@@ -16,7 +16,7 @@ The results demonstrate that MoniTor outperforms state-of-the-art methods and is
 We recommend the use of a Linux machine with CUDA compatible GPUs. We used 2x NVIDIA A100 GPUs with 64GB. We provide both a Conda environment and a Dockerfile to configure the required libraries.
 
 ```bash
-git clone https://github.com/lucazanella/lavad.git
+[git clone https://github.com/lucazanella/lavad.git](https://github.com/YsTvT/MoniTor.git)
 cd MoniTor
 ```
 
