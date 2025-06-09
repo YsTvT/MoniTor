@@ -11,12 +11,12 @@ Moreover, we design a scoring queue and an anomaly prior to dynamically store re
 We evaluate MoniTor on two large datasets (i.e., UCF-Crime and XD-Violence) containing various surveillance and real-world scenarios. 
 The results demonstrate that MoniTor outperforms state-of-the-art methods and is competitive with weakly supervised methods without training. Code will be available.
 
-##Setup
+## Setup
 
-We recommend the use of a Linux machine with CUDA compatible GPUs. We used 2x NVIDIA A100 GPUs with 64GB. We provide both a Conda environment and a Dockerfile to configure the required libraries.
+We recommend the use of a Linux machine with CUDA compatible GPUs. We used 2x NVIDIA 4090 GPUs with 24GB. We provide a Conda environment to configure the required libraries.
 
 ```bash
-[git clone https://github.com/lucazanella/lavad.git](https://github.com/YsTvT/MoniTor.git)
+git clone https://github.com/YsTvT/MoniTor.git
 cd MoniTor
 ```
 
@@ -29,3 +29,17 @@ conda create --name Moni python=3.10
 conda activate Moni
 pip install -r requirements.txt
 ```
+# Data
+
+Please download the data, including captions, temporal summaries, indexes with their textual embeddings, and scores for the UCF-Crime and XD-Violence datasets, from the links below:
+
+- 📦 **UCF-Crime Dataset (processed)**  
+  [Download UCF-Crime features](https://zenodo.org/record/10407036/files/ucf-crime.zip)  
+  Includes: pre-extracted I3D features, timestamps, textual descriptions, and anomaly labels.
+
+- 📦 **XD-Violence Dataset (processed)**  
+  [Download XD-Violence features](https://zenodo.org/record/10407036/files/xd-violence.zip)  
+  Includes: temporal annotations, video embeddings, and textual captions.
+
+After downloading, extract the contents into the following directory structure:
+
