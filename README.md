@@ -1,4 +1,11 @@
 # MoniTor: Exploiting Large Language Models with Instruction for Online Video Anomaly Detection
+
+<div align="center">
+
+**Shengtian Yang**, **Yue Feng**, **Yingshi Liu**, **Jingrou Zhang**, **Jie Qin**
+
+</div>
+
 <div align="center">
   <img src="https://github.com/user-attachments/assets/4fa0a527-8a79-4778-a62f-beab0a5f94b5" alt="MoniTor Method Overview" width="800">
 </div>
@@ -42,4 +49,16 @@ Please download the data, including captions, temporal summaries, indexes with t
   Includes: temporal annotations, video embeddings, and textual captions.
 
 After downloading, extract the contents into the following directory structure:
+
+# Pretrained models
+
+We use **Blip2** as our VLM following [lavad](https://github.com/lucazanella/lavad?tab=readme-ov-file).
+
+# LLM Agent
+
+We use **GLM-4-Flash** as our default LLM agent due to its efficiency and compatibility.  
+You are free to use other models from the **GLM** family depending on your requirements.
+
+🔗 [Visit the official GLM page](https://github.com/THUDM/ChatGLM) to explore available models and documentation.  
+🔑 You can obtain your API key from the GLM service at [https://open.bigmodel.cn](https://open.bigmodel.cn).
 
