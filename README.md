@@ -11,6 +11,15 @@ Moreover, we design a scoring queue and an anomaly prior to dynamically store re
 We evaluate MoniTor on two large datasets (i.e., UCF-Crime and XD-Violence) containing various surveillance and real-world scenarios. 
 The results demonstrate that MoniTor outperforms state-of-the-art methods and is competitive with weakly supervised methods without training. Code will be available.
 
+##Setup
+
+We recommend the use of a Linux machine with CUDA compatible GPUs. We used 2x NVIDIA A100 GPUs with 64GB. We provide both a Conda environment and a Dockerfile to configure the required libraries.
+
+```bash
+git clone https://github.com/lucazanella/lavad.git
+cd MoniTor
+```
+
 ## Conda
 
 The environment can be installed and activated with:
@@ -19,3 +28,4 @@ The environment can be installed and activated with:
 conda create --name Moni python=3.10
 conda activate Moni
 pip install -r requirements.txt
+```
