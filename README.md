@@ -1,4 +1,13 @@
-# MoniTor: Exploiting Large Language Models with Instruction for Online Video Anomaly Detection
+<div align="center">
+
+<img src="assets/fig0.png" width="40"/>
+
+<br>
+
+<b><font size="5">MoniTor: Exploiting Large Language Models with Instruction for Online Video Anomaly Detection</font></b>
+
+</div>
+
 
 <div align="center">
 
@@ -62,3 +71,16 @@ You are free to use other models from the **GLM** family depending on your requi
 🔗 [Visit the official GLM page](https://github.com/THUDM/ChatGLM) to explore available models and documentation.  
 🔑 You can obtain your API key from the GLM service at [https://open.bigmodel.cn](https://open.bigmodel.cn).
 
+# Evaluation
+
+Since our method is **training-free Video Anomaly Detection (VAD)**, only the evaluation process is required.
+
+After completing the frame extraction step via:
+
+```bash
+bash scripts/00_extract_frames.sh
+bash slurm/<dataset>/01_XXX.sh
+bash slurm/<dataset>/02_XXX.sh
+···
+bash slurm/<dataset>/07_XXX.sh
+```
