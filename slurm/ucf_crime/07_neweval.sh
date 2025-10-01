@@ -42,7 +42,7 @@ raw_scores_dir="${ucf_crime_dir}/scores/raw/${llm_model_name}/${index_name}/${di
 echo "Processing scores: $raw_scores_dir"
 output_dir="${ucf_crime_dir}/scores/raw/${llm_model_name}/${index_name}/${dir_name}/"
 
-python -m src.neweval \
+python -m src.ucf_eval \
     --root_path "$root_path" \
     --annotationfile_path "$annotationfile_path" \
     --temporal_annotation_file "$temporal_annotation_file" \
